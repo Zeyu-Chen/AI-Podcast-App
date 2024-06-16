@@ -17,6 +17,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'img.clerk.com'
       },
+      {
+        protocol: 'https',
+        hostname: 'keen-dodo-282.convex.cloud'
+      }
     ]
   }
 };

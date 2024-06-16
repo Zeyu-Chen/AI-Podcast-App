@@ -23,6 +23,7 @@ const useGeneratePodcast = ({
   const {startUpload} = useUploadFiles(generateUploadUrl);
 
   const getPodcastAudio = useAction(api.openai.generateAudioAction);
+
   const getAudioUrl = useMutation(api.podcasts.getUrl);
 
   const generatePodcast = async () => {
@@ -88,7 +89,7 @@ const GeneratePodcast = (props: GeneratePodcastProps) => {
         />
       </div>
       <div className="mt-5 w-full max-w-[200px]">
-        <Button type="submit" className="text-16 bg-orange-1 py-4 font-bold text-white-1">
+        <Button type="submit" className="text-16 bg-orange-1 py-4 font-bold text-white-1" onClick={generatePodcast}>
           {isGenerating ? (
             <>
               Generating
