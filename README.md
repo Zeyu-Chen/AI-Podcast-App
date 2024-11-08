@@ -1,4 +1,12 @@
-# Podcastr
+# AI Podcast App
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-v1-412991?logo=openai&logoColor=white)](https://openai.com/)
+[![Clerk](https://img.shields.io/badge/Clerk-4-6C47FF?logo=clerk&logoColor=white)](https://clerk.dev/)
+[![Convex](https://img.shields.io/badge/Convex-1-FF8A65?logo=convex&logoColor=white)](https://www.convex.dev/)
 
 A modern AI-powered podcast platform that allows users to create and share AI-generated podcasts.
 
@@ -38,7 +46,7 @@ A modern AI-powered podcast platform that allows users to create and share AI-ge
 
 ```
 git clone git@github.com:Zeyu-Chen/AI-Podcast-App.git
-cd podcastr
+cd AI-Podcast-App
 ```
 
 2. Install dependencies
